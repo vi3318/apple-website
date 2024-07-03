@@ -1,0 +1,57 @@
+.text-animation-container {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.text-animation-item1 {
+  position: absolute;
+  top: -10%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  margin-right: 15px;
+}
+
+.text-animation-item2 {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  margin-left: 15px;
+}
+
+.text-animation-item1 h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: right;
+  color: black;
+  
+}
+/* .text-animation1{
+  padding-bottom: 20px;
+}
+
+.textanimtion2{
+  padding-top: 20px;
+} */
+
+.text-animation-item2 h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+}
+
+.text-animation-item1.left {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.text-animation-item2.right {
+  right: 100;
+  transform: translateX(100%);
+}

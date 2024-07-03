@@ -1,0 +1,87 @@
+.section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+  
+  .text-container {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 50vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+  }
+  
+  .text-container span {
+    font-size: 7em;
+    width: 90%;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  @media screen and (max-width: 70em) {
+    .text-container span {
+      font-size: 5.5em;
+    }
+  }
+  
+  @media screen and (max-width: 64em) {
+    .text-container span {
+      font-size: 3.4375em;
+    }
+  }
+  
+  @media screen and (max-width: 48em) {
+    .text-container span {
+      font-size: 1.9375em;
+    }
+  }
+  
+  .text-container2 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: #000000;
+    background-color: #f9f9f9;
+  }
+  
+  .text-container2 span {
+    font-size: 5.5em;
+    width: 80%;
+    font-weight: 600;
+    text-transform: capitalize;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  @media screen and (max-width: 70em) {
+    .text-container2 span {
+      font-size: 3.4375em;
+    }
+  }
+  
+  @media screen and (max-width: 64em) {
+    .text-container2 span {
+      font-size: 2.75em;
+    }
+  }
+  
+  @media screen and (max-width: 48em) {
+    .text-container2 span {
+      font-size: 1.9375em;
+    }
+  }
+  
