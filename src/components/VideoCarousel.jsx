@@ -69,11 +69,11 @@ const VideoCarousel = () => {
 
   return (
     <div className="relative">
-      <div className="flex items-center">
+      <div className="flex items-center justify-center px-0">
         {hightlightsSlides.map((slide, index) => (
           <div
             key={slide.id}
-            className={`sm:align-center sm:justify-center pr-10 ${
+            className={`sm:align-center sm:justify-center  ${
               index === currentVideoIndex ? "block" : "hidden"
             }`}
           >

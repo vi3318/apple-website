@@ -79,7 +79,7 @@ const Model = () => {
           </div>
 
         <div className="flex flex-col items-center ">
-          <div className="w-full h-[75vh] md:h-[90vh] overflow-hidden relative">
+          <div className="w-full h-[75vh] md:h-[70vh] overflow-hidden relative">
             <ModelView 
               index={1}
               groupRef={small}
